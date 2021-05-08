@@ -1,0 +1,41 @@
+html,
+cuerpo {
+    margen: 0;
+    acolchado: 0;
+    familia de fuentes: Arial, Helvetica, sans-serif;
+    color de fondo: # e35183;
+}
+
+.envase {
+    pantalla: flex;
+    posición: absoluta;
+    ancho: 100%;
+    altura: 100%;
+    flex-flow: columna nowrap;
+    alinear-elementos: centro;
+    justificar-contenido: centro;
+}
+
+.container .title {
+    tamaño de fuente: 35px;
+    color blanco;
+}
+
+.container .buttons {
+    margen superior: 50px;
+    margen izquierdo: -130px;
+}
+
+.container .buttons .btn {
+    posición: absoluta;
+    relleno: 10px 20px;
+    tamaño de fuente: 18px;
+    color de fondo: # 7f0000;
+    color blanco;
+    borde: ninguno;
+    radio del borde: 3px;
+}
+
+.container .buttons> #btnno {
+    margen izquierdo: 70px;
+}
